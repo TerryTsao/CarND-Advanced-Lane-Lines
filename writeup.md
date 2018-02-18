@@ -79,6 +79,6 @@ Here's a [link to my video result](./output.mp4)
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-The pipeline is likely to fail if road lanes are not clear for a long distance and the lane is changing a lot.
+The pipeline is likely to fail if road lanes are not clear for a long distance and the lane is changing a lot. Perhaps some lane prediction techniques would make this more robust.
 
 Also, for perspective transform, the points are hand chosen. I hope there is some way to automate the process and make it more robust.
